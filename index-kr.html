@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCM Diary - AI 일기 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(180deg, #FFF9F0 0%, #FFF3CD 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin-bottom: 20px;
+            border-radius: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+        h1 {
+            color: #8B6914;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+        .features {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: left;
+        }
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
+        .feature-icon {
+            font-size: 28px;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .feature-text h3 {
+            color: #8B6914;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .feature-text p {
+            color: #666;
+            font-size: 14px;
+        }
+        .download-section {
+            margin: 40px 0;
+        }
+        .app-store-badge {
+            height: 50px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .app-store-badge:hover {
+            transform: scale(1.05);
+        }
+        .coming-soon {
+            background: #8B6914;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+        }
+        .links {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(139, 105, 20, 0.2);
+        }
+        .links a {
+            color: #8B6914;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="app_icon.png" alt="MCM Diary" class="logo">
+        <h1>MCM Diary</h1>
+        <p class="tagline">AI와 함께하는 매일의 기록</p>
+
+        <div class="features">
+            <div class="feature-item">
+                <span class="feature-icon">💬</span>
+                <div class="feature-text">
+                    <h3>AI와 대화하며 일기 쓰기</h3>
+                    <p>하루를 돌아보며 AI와 편하게 대화하세요. 대화 내용을 바탕으로 일기가 자동 생성됩니다.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">🌍</span>
+                <div class="feature-text">
+                    <h3>다국어 지원</h3>
+                    <p>한국어, 영어, 일본어로 일기를 작성할 수 있습니다.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">📚</span>
+                <div class="feature-text">
+                    <h3>영어 학습 기능</h3>
+                    <p>영어로 일기를 쓰면 핵심 표현을 한국어로 설명해 드려요. 일기 쓰면서 영어 공부까지!</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <span class="feature-icon">📅</span>
+                <div class="feature-text">
+                    <h3>캘린더로 한눈에</h3>
+                    <p>작성한 일기를 캘린더에서 확인하고 검색할 수 있습니다.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <!-- 출시 후 App Store 링크로 교체 -->
+            <span class="coming-soon">🍎 App Store 출시 예정</span>
+            <!-- <a href="https://apps.apple.com/app/idXXXXXXXXX" target="_blank">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="app-store-badge">
+            </a> -->
+        </div>
+
+        <div class="links">
+            <a href="privacy-policy-kr.html">개인정보 처리방침</a>
+            <a href="support-kr.html">고객 지원</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 MCM Diary. All rights reserved.</p>
+            <p style="margin-top: 10px;">문의: master1000online@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
